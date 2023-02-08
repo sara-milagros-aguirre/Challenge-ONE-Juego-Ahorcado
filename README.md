@@ -3,7 +3,8 @@ Sprint 02: Juego del ahorcado.
 
 https://sara-milagros-aguirre.github.io/Challenge-ONE-Juego-Ahorcado/!
 
-[Captura desde 2023-02-08 00-26-30](https://user-images.githubusercontent.com/106611253/217421450-22375345-70db-49ed-a351-15c33069bed0.png)
+![Captura desde 2023-02-08 00-26-30](https://user-images.githubusercontent.com/106611253/217423431-cf2acadb-6ced-4d50-a02b-03424a50e5eb.png)
+
 
 
 Requisitos:
