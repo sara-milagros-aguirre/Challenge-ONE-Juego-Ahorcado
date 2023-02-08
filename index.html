@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Juego del ahorcado</title>
+        <link rel="stylesheet" href="reset.css/reset.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,700;1,700&family=Rye&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <h1 id="logoEncabezado">a</h1>
+            </div>
+        </header>
+        
+        <main>
+            <section id="menuPrincipal">
+                <div class="botonesMenuPrincipal">
+                    <input type="submit"  id="btnIniciar" value="Iniciar Juego" class="botonIniciar" onclick="IniciarJuego()">
+                    <input type="submit" id="btnAgregar" value="Agregar Palabra" class="botonAgregar"onclick="AgregarPalabra()">
+                </div>
+            </section>
+            
+            <section class="dibujoAhorcado" id="dibujoAhorcado">
+                <canvas id="horca" width="1160" height="300"></canvas>
+                <span class="mensajePerdiste"><label for="">¡Fin del juego!</label></span>
+                <span class="mensajeGanaste"><label for="">¡Ganaste!</label></span>
+                <div class="botones">
+                    <input type="submit"  id="btnNuevoJuego" value="Nuevo Juego" class="botonNuevoJuego" onclick="IniciarJuego()">
+                    <input type="submit" id="btnRendirse" value="Rendirse" class="botonRendirse"onclick="Rendirse()">
+                </div>
+            </section>
+
+            <section id="agregandoPalabra" class="mainAgregarPalabra">
+                <section class="agregarPalabra">
+                    <textarea name="palabraAAgregar" id="textAreaAgregarPalabra" cols="50" rows="10" placeholder="Ingresa una palabra..." maxlength="8" autofocus></textarea>
+                    <div class="requisitos">
+                        <ul>
+                            <li><label for="">&#128712; No se admiten numeros, acentos y/o caracteres especiales</label></li>
+                            <li><label for="">&#128712; Maximo 8 Letras</label></li>
+                        </ul>  
+                    </div>                
+                </section>   
+                <div class="botonesAgregandoPalabra">
+                    <input  id="btnGuardar" type="button" value="Guardar y Jugar" class="botonGuardar" onclick="GuardarYJugar()">
+                    <input id="btnCancelar" type="button" value="Cancelar" class="botonCancelar" onclick="MenuPrincipal()">
+                </div>             
+                
+            </section>
+            
+        </main>
+        
+        <footer>
+            <p>
+                © 2023 Challenge ONE: Juego del ahorcado. Desarrollado por:
+                Sara Aguirre
+            </p>
+            <nav class="contacto">
+                <a href="https://github.com/sara-milagros-aguirre"><img src="Imagenes/icons8-github-40.png"
+                        alt="https://img.icons8.com/color/40/000000/github--v1.png" /></a>
+                <a href="https://www.linkedin.com/in/sara-milagros-aguirre/"><img
+                        src="Imagenes/icons8-linkedin-circled-40.png"
+                        alt="https://img.icons8.com/color/40/000000/linkedin-circled--v1.png" /></a>
+            </nav>
+        </footer>
+        <script src="ahorcado.js"></script>
+        <script src="canvas.js"></script>
+    </body>
+</html>
+
+
