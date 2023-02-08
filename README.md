@@ -1,8 +1,10 @@
 # Challenge-ONE-Juego-Ahorcado
 Sprint 02: Juego del ahorcado.
 
-https://sara-milagros-aguirre.github.io/Challenge-ONE-Juego-Ahorcado/![Captura desde 2023-02-08 00-26-30](https://user-images.githubusercontent.com/106611253/217421450-22375345-70db-49ed-a351-15c33069bed0.png)
-![Captura desde 2023-02-08 00-27-49](https://user-images.githubusercontent.com/106611253/217421729-e3f52595-90e6-486c-8069-e449e788ce6b.png)
+https://sara-milagros-aguirre.github.io/Challenge-ONE-Juego-Ahorcado/!
+
+[Captura desde 2023-02-08 00-26-30](https://user-images.githubusercontent.com/106611253/217421450-22375345-70db-49ed-a351-15c33069bed0.png)
+
 
 Requisitos:
 - Debe funcionar solo con letras mayúsculas;
@@ -17,3 +19,5 @@ Requisitos:
 
 Extras:
 - La página debe tener un campo para inserción de texto con la finalidad de adicionar nuevas palabras al juego, e un botón "Agregar palabra".
+
+![Captura desde 2023-02-08 00-27-49](https://user-images.githubusercontent.com/106611253/217421729-e3f52595-90e6-486c-8069-e449e788ce6b.png)
